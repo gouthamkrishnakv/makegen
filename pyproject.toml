@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "makegen"
-version = "0.1.0-PROTO"
+version = "0.1.0"
 description = "Pythonic Implementation of Makefile Generator"
 authors = ["Goutham Krishna K V <gauthamkrishna9991@live.com>"]
+long_description_text_content_type = "markdown"
 readme = "README.md"
 
 classifiers = [
