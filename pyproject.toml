@@ -13,10 +13,13 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
+isort = "^5.11.4"
+touch = "^2020.12.3"
 
 
 [tool.poetry.group.dev.dependencies]
 black = {version = "^23.1a1", allow-prereleases = true}
+pytest = "^7.2.1"
 
 [build-system]
 requires = ["poetry-core"]
